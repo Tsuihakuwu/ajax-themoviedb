@@ -94,6 +94,7 @@
                             $('#display_query_result').append('<hr><br>');
                             ++i;
                         }
+                        
                     });
 
                 });
