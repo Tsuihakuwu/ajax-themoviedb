@@ -90,11 +90,13 @@
                             //Date de sortie
                             $('#display_query_result')
                                 .append('<br><span>Date de sortie : </span><span>' + response.results[i].release_date + '</span>');
+                            //Votes utilisateurs
+                            $('#display_query_result')
+                                .append('<br><span>Moyenne des votes : </span><span>' + response.results[i].vote_average + '</span>');
 
                             $('#display_query_result').append('<hr><br>');
                             ++i;
                         }
-                        
                     });
 
                 });
